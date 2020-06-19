@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import  ListedColormap#绘图引入模块
 
 iris=datasets.load_iris()#蓝蝴蝶
-# print(iris)
+print(iris)
 x_train=iris.data[::2]#Python序列切片地址可以写为[开始：结束：步长]，其中的开始和结束可以省略
 # print(x_train)
 y_train=iris.target[::2]
